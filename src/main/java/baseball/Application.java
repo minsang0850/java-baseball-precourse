@@ -35,7 +35,6 @@ public class Application {
 
     public boolean test(int answer, int n) { // 테스트 실행
         if (n == answer) {
-            //System.out.println("n:"+n); System.out.println("answer:"+answer);
             System.out.println("3스트라이크");
             System.out.println("세개의 숫자를 모두 맞히셨습니다! 게임 종료");
             return true;
